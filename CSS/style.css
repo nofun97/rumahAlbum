@@ -1,0 +1,185 @@
+html{
+    font-family: sans-serif;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(86, 108, 179);
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.logos {
+    padding-top: 9vh;
+    padding-bottom: 1vh;
+    display: block;
+    background: rgba(163,178,225,0.5);
+    display: flex;
+    justify-content: center;
+}
+
+
+.logos img{
+    max-width: 200px;
+}
+
+nav{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 8vh;
+    z-index: 999;
+    background: rgb(117, 155, 198);
+}
+
+.nav{
+    margin: 0 20px;
+    font-size: 3vh;
+    text-align: center;
+    display: inline-block;
+    z-index: 999;
+}
+
+.text1{
+    background-image: url("/Images/stocks-min.jpeg");
+    position: relative;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    width: auto;
+    height: 69.5vh;
+}
+
+.text2 {
+    background-image: url("/Images/materirumahalbum/BOX (1)-min.jpg");
+}
+
+.text3 {
+    background-image: url("/Images/materirumahalbum/Magazine (1).jpg");
+}
+
+.text4 {
+    background-image: url("/Images/materirumahalbum/Frame (1).jpg");
+}
+
+.text5 {
+    background-image: url("/Images/materirumahalbum/Box Kayu (1)-min.jpg");
+}
+.back {
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 8%;
+    transition: all .2s ease-in-out;
+}
+.back:hover{
+    transform: scale(1.05);
+}
+.layer{
+    background-color: rgba(255, 255, 255, 0.4);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.text {
+    text-align: center;
+    font-size: 25px;
+}
+
+.layer .text {
+    font-size: 125%;
+}
+.footer {
+    background-color: rgb(86, 108, 179);
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+.contacts {
+    width: auto;
+    height: 65.2vh;
+}
+.social{
+    max-width: 50px;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.wrapper1 {
+    display: grid;
+    grid-gap: 2vh;
+    grid-template-columns: 1fr 1fr;
+}
+
+.product {
+    padding: 0 2vh 4vh 2vh;
+    background-color: rgba(163,178,225,0.5);
+    text-align: center;
+}
+
+.productText{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    width: 100%;
+}
+.product .productText p {
+    margin: 0;
+    color: white;
+    font-size: 35px;
+}
+
+.galleryImageBack{
+    padding: 2vh;
+    background-color: rgba(116, 146, 242, 0.7);
+}
+
+.galleryImage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.galleryImage img {
+    max-width: 75vw;
+    width: auto;
+    height: auto;
+}
+
+button{
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-color: rgba(0, 0, 0, 0);
+    top: 50%;
+}
+
+#buttonRight{
+    right: 12.5vw;
+}
+
+#buttonLeft{
+    left: 12.5vw;
+}
